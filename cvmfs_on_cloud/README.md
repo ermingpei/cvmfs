@@ -22,7 +22,7 @@ EOF
 
 ![Alt Install_CVMFS_on_your_VM](https://user-images.githubusercontent.com/73720293/97760381-a80ae600-1ac8-11eb-904f-5861c93d6bd8.png)
 
-(Note that the above script is based on CentOS/Redhat/Fedora OS flavors. TBD for Ubuntu/Debian/Windows users.  
+(Note that the above script works only for CentOS/Redhat/Fedora OS flavors. TBD for Ubuntu/Debian/Windows users.)  
 
 
 Once it's installed and configured, you can test CVMFS with running:
