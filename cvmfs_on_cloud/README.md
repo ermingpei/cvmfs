@@ -1,5 +1,6 @@
 
-There are different approaches to enalbe CVMFS on a cloud, either install & configure directly on a running VM, 
+CVMFS is
+There are different approaches to enable CVMFS on a cloud, either install & configure directly on a running VM, 
 or add a Customzation Script when launching a VM, or even apply it to your own cloud image(s). 
 
 Here is the script and the snapshot of the dashboard:
