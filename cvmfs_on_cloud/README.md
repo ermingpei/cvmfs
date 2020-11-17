@@ -4,12 +4,14 @@ There are different approaches to enable CVMFS on a cloud, either by adding a Cu
 
 Here is the script and the snapshot of the dashboard:
 
+-- For CentOS/Redhat --
+
 ![CVMFS Custmozation Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script_CtosRH)
+(Note that this script works only for CentOS/Redhat OS flavors. TBD for Ubuntu/Debian/Windows users.)  
 
 
 ![Alt Install_CVMFS_on_your_VM](https://user-images.githubusercontent.com/73720293/97760381-a80ae600-1ac8-11eb-904f-5861c93d6bd8.png)
 
-(Note that the above script works only for CentOS/Redhat/Fedora OS flavors. TBD for Ubuntu/Debian/Windows users.)  
 
 
 You may also run the script on your VM. 
