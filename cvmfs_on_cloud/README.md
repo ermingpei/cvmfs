@@ -4,7 +4,7 @@ There are different approaches to enable CVMFS on a cloud, either by adding a Cu
 
 Here is the script and the snapshot of the dashboard:
 
-![CVMFS Custmozation Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script)
+![CVMFS Custmozation Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script_CtosRH)
 
 
 ![Alt Install_CVMFS_on_your_VM](https://user-images.githubusercontent.com/73720293/97760381-a80ae600-1ac8-11eb-904f-5861c93d6bd8.png)
