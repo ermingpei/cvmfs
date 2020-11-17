@@ -1,7 +1,6 @@
 
 
-There are different approaches to enable CVMFS on a cloud, either install & configure directly on a running VM, 
-or add a Customzation Script when launching a VM, or even apply it to your own cloud image(s). 
+There are different approaches to enable CVMFS on a cloud, either by adding a Customzation Script when launching a VM, or install & configure directly on a running VM, or even apply it to your own cloud image(s). 
 
 Here is the script and the snapshot of the dashboard:
 
@@ -13,6 +12,9 @@ Here is the script and the snapshot of the dashboard:
 (Note that the above script works only for CentOS/Redhat/Fedora OS flavors. TBD for Ubuntu/Debian/Windows users.)  
 
 
+You may also run the script on your VM. 
+
+
 Once it's installed and configured, you can test CVMFS with running:
 
 ```
@@ -22,7 +24,8 @@ config  custom  easybuild  gentoo  new_repository  nix
 
 or list any other repositories you added to CVMFS_REPOSITORIES variable. 
 
-Now you can run the following command to enable modules from CVMFS:
+
+Once CVMFS is set up, you can run the following command to enable software modules from CVMFS:
 
 `$ source /cvmfs/soft.computecanada.ca/config/profile/bash.sh`
 
