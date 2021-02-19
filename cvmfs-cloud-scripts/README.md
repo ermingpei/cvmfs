@@ -1,10 +1,10 @@
 
 
-There are different approaches to enable CVMFS on a cloud, either by adding a Customzation Script when launching a VM, or install & configure directly on a running VM, or even apply it to your own cloud image(s). 
+There are different approaches to enable CVMFS on a cloud, either by adding a Customization Script when launching a VM, or install & configure directly on a running VM, or even apply it to your own cloud image(s). 
 
 * Here is the script for different OS flavors:
 
-  -- For CentOS/Redhat: ![CVMFS Custmozation Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script_CtosRH)
+  -- For CentOS/Redhat: ![CVMFS Customization Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script_CtosRH)
 
   -- For Fedora: (TBD) 
 
@@ -19,14 +19,11 @@ There are different approaches to enable CVMFS on a cloud, either by adding a Cu
 
 ![Alt Install_CVMFS_on_your_VM](https://user-images.githubusercontent.com/73720293/97760381-a80ae600-1ac8-11eb-904f-5861c93d6bd8.png)
 
-
-
 * To enable it on a running VM
 
-Just simply run the script on your VM it will perform all the setup steps for you.  
+Just run the script on your VM, it will perform all the setup steps for you.  
 
-
-* Once it's installed and configured, you can test CVMFS with running:
+* Once it's installed and configured, you can test CVMFS by running:
 
 ```
 $ ls /cvmfs/soft.computecanada.ca
