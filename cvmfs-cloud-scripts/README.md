@@ -4,7 +4,7 @@ There are different approaches to enable CVMFS on a cloud, either by adding a Cu
 
 * Here is the script for different OS flavors:
 
-  -- For CentOS/Redhat: ![CVMFS Customization Script](https://raw.githubusercontent.com/ComputeCanada/cvmfs/main/cvmfs_on_cloud/customization_script_CtosRH)
+  -- For CentOS/Redhat: ![CVMFS Customization Script](https://github.com/ComputeCanada/CVMFS/blob/main/cvmfs-cloud-scripts/customization_script_CtosRH)
 
   -- For Fedora: (TBD) 
 
